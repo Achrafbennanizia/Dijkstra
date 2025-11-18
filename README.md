@@ -358,7 +358,3 @@ This project is provided as-is for educational and research purposes.
 | Adaptive Thresholds | ✅     |
 | Multi-threading     | ✅     |
 
----
-
-**Happy shortest pathing! 🚀**
-# Dijkstra
