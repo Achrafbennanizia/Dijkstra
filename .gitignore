@@ -1,0 +1,56 @@
+# Build directories
+cmake-build-debug/
+cmake-build-release/
+build/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Executables
+dijkstra
+dijkstra_parallel
+*.out
+*.exe
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated files
+*.ninja
+*.ninja.d
+.ninja_log
+
+# Test graphs (optional - comment out if you want to track them)
+test.gr
+large_graph.gr
+huge_graph.gr
+massive_graph.gr
+very_large_graph.gr
+
+# OS files
+.DS_Store
+Thumbs.db
