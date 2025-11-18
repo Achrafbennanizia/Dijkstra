@@ -3,7 +3,7 @@ GIT REPOSITORY INITIALIZATION COMPLETE
 ================================================================================
 
 PROJECT: Dijkstra's Algorithm Sequential vs Parallel Implementation
-LOCATION: /Users/achraf/CLionProjects/Dijkstra
+LOCATION: /../Dijkstra
 REPOSITORY STATUS: ✅ Initialized and Ready to Push
 
 ================================================================================
