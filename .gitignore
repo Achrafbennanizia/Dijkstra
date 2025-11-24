@@ -1,56 +1,134 @@
-# Build directories
-cmake-build-debug/
-cmake-build-release/
+# ====================
+# Build System
+# ====================
+cmake-build-*/
 build/
 out/
-
-# CMake
+dist/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 *.cmake
+*.ninja
+*.ninja.d
+.ninja_log
+compile_commands.json
 
+# ====================
+# Build Artifacts
+# ====================
 # Executables
 dijkstra
 dijkstra_parallel
 *.out
 *.exe
+*.app
+*.bin
+*.run
 
-# Object files
+# Object files & static/shared libraries
 *.o
 *.obj
 *.a
 *.lib
 *.so
+*.so.*
 *.dylib
 *.dll
+*.class
 
-# IDE files
+# ====================
+# IDE & Editor
+# ====================
+# JetBrains CLion
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
 .vscode/
+.vscode-test/
+*.code-workspace
+.history/
+
+# Vim & Neovim
 *.swp
 *.swo
 *~
-.DS_Store
+.*.swp
+.*.swo
 
-# Compiled Python
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================
+# Python
+# ====================
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+venv/
+ENV/
+env/
+.env
 
-# Generated files
-*.ninja
-*.ninja.d
-.ninja_log
-
-# Test graphs (optional - comment out if you want to track them)
-test.gr
+# ====================
+# Test & Graph Files
+# ====================
+# Auto-generated test graphs (comment out to track specific ones)
+test_*.gr
+small_graph.gr
+medium_graph.gr
 large_graph.gr
 huge_graph.gr
 massive_graph.gr
 very_large_graph.gr
+custom_graph.gr
 
-# OS files
-.DS_Store
-Thumbs.db
+# ====================
+# Temporary & Log Files
+# ====================
+*.log
+*.swp
+*.tmp
+*.temp
+*.bak
+*.cache
+*.prof
+.clang-format.backup
+
+# ====================
+# CMake Testing
+# ====================
+Testing/
+
+# ====================
+# Misc
+# ====================
+*.orig
+.env.local
+.env.*.local
