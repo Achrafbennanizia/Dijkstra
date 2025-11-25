@@ -44,7 +44,7 @@ sudo apt-get install libtbb-dev cmake
 #### Build the Project
 
 ```bash
-cd /Users/achraf/CLionProjects/Dijkstra
+cd /Dijkstra
 mkdir -p cmake-build-debug
 cd cmake-build-debug
 cmake ..
@@ -357,4 +357,3 @@ This project is provided as-is for educational and research purposes.
 | DIMACS Support      | ✅     |
 | Adaptive Thresholds | ✅     |
 | Multi-threading     | ✅     |
-
